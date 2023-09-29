@@ -1,16 +1,11 @@
 # consulta_cep
 
-A new Flutter project.
+Aplicativo para consulta de CEP com salvamento na nuvem, desenvolvido em Flutter e Dart para o Santander Bootcamp 2023. 📘
 
-## Getting Started
+## Bibliotecas: 
+  - [Dio](https://pub.dev/packages/dio) (Requisições HTTPs)
+  - [dotenv](https://pub.dev/packages/dotenv) (Variáveis de ambiente)
+## Serviços: 
+  - [ViaCep](https://viacep.com.br/) (Consulta de CEP)
+  - [Back4App](https://www.back4app.com/) (Banco de Dados e API)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
