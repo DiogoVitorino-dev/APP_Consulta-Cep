@@ -1,4 +1,4 @@
-import 'package:bootcamp_flutter/app.dart';
+import 'package:consulta_cep/app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 

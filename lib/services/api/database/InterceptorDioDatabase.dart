@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-class InterceptorDioTarefas extends Interceptor {
+class InterceptorDioDatabase extends Interceptor {
   @override
   void onRequest(RequestOptions options, RequestInterceptorHandler handler) {
-    var appId = dotenv.get("APPLICATIONID");
-    var apiKey = dotenv.get("APIKEY");
+    var appId = dotenv.get("APPLICATION_ID");
+    var apiKey = dotenv.get("API_KEY");
 
     if (options.method == "GET" || options.method == "POST") {
       options.headers = {
@@ -16,7 +16,7 @@ class InterceptorDioTarefas extends Interceptor {
     } else {
       options.headers = {
         "X-Parse-Application-Id": appId,
-        "X-Parse-REST-API-Key": apiKey,        
+        "X-Parse-REST-API-Key": apiKey,
       };
     }
 

@@ -1,4 +1,4 @@
-import 'package:bootcamp_flutter/pages/tarefasPage.dart';
+import 'package:consulta_cep/pages/cepPage.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -7,7 +7,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: TarefasPage(),
+      home: CepPage(),
       debugShowCheckedModeBanner: false,
     );
   }
